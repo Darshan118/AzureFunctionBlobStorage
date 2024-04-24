@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "storage2": {
+      "type": "storage",
+      "connectionId": "FunctionAppBlobStorage",
+      "dynamicId": null
+    },
+    "storage3": {
+      "type": "storage",
+      "connectionId": "BlobTrigger",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
+    }
+  }
+}
